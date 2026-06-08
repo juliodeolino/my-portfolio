@@ -16,9 +16,10 @@ export default function Hero() {
     <section className="min-h-screen w-full flex flex-col justify-center items-center border-b border-gray-800 px-4">
       <motion.div
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
         variants={{
-          visible: { transition: { staggerChildren: 0.2 } },
+          visible: { transition: { staggerChildren: 0.15 } },
         }}
         className="max-w-4xl mx-auto items-center flex flex-col gap-12"
       >

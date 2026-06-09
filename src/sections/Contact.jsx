@@ -31,7 +31,7 @@ export default function Contact() {
       >
         <motion.div
         variants={fadeInUp}
-        className="text-center"
+        className="text-center flex flex-col items-center gap-4 max-w-2xl"
         >
             <Typography variant="subtitle">Contato</Typography>
             <Typography variant="h2">Vamos Conversar?</Typography>

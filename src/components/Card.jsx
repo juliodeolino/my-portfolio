@@ -12,7 +12,7 @@ export default function Card({
   githubUrl
 }) {
   return (
-    <div className="bg-surface border border-gray-800 rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50 group">
+    <div className="bg-surface border border-gray-800 rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50 group z-50">
       <div className="h-48 overflow-hidden bg-slate-900 relative">
         {imageUrl ? (
           <img

@@ -5,6 +5,7 @@ import Hero from './sections/Hero';
 import Footer from './components/Footer';
 import Technology from './sections/Technology';
 import Contact from './sections/Contact';
+import Projects from './sections/Projects';
 
 export default function App() {
   const VER_DESIGN_SYSTEM = false;
@@ -21,6 +22,9 @@ export default function App() {
         </section>
         <section id="tecnologia">
           <Technology />
+        </section>
+        <section id="projetos">
+          <Projects />
         </section>
         <section id="contato">
           <Contact />

@@ -42,7 +42,7 @@ export default function Hero() {
             </Typography>
           </motion.div>
           <motion.div variants={fadeInUp} className="flex flex-col md:flex-row w-full gap-4  justify-center max-w-md mx-auto">
-            <Button variant="primary" className="w-full md:w-48">
+            <Button variant="primary"  href= "#projetos" className="w-full md:w-48" pointer="cursor-pointer" >  
               Ver Projetos
             </Button>
             <Button variant="secondary" className="w-full md:w-48">

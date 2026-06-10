@@ -6,12 +6,22 @@ const styles = {
     ghost: "text-gray-400 hover:text-white hover:bg-slate-800",
 };
 
-export default function Button({ variant = "primary", children, className = "", ...props}) {
+export default function Button({ variant = "primary", children, className = "", href, ...props}) {
 
-    const baseClasses = "px-6 py-2.5 w-full rounded-lg font-semibold text-sm transition-all duration-300 inline-flex items-center justify-center gap-2 font-medium active:scale-95";
+    const baseClasses = "px-6 py-2.5 w-full rounded-lg font-semibold text-sm transition-all duration-300 inline-flex items-center justify-center gap-2 font-medium active:scale-95 cursor-pointer";
     const selectStyle = styles[variant] || styles.primary;
     const computedClasses = `${baseClasses} ${selectStyle} ${className}`;
-   return (
+   
+    // Se houver href, renderiza como link
+    if (href) {
+        return (
+            <a href={href} className={computedClasses} {...props}>
+                {children}
+            </a>
+        )
+    }
+   
+    return (
     <button className={computedClasses} {...props}>
         {children}
     </button>

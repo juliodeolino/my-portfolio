@@ -13,7 +13,7 @@ export default function Hero() {
     },
   };
   return (
-    <section className="min-h-screen w-full flex flex-col justify-center items-center border-b border-gray-800 px-4">
+    <section className="min-h-screen w-full flex flex-col justify-center items-center border-b border-gray-800 px-4 py-16">
       <motion.div
         initial="hidden"
         whileInView="visible"

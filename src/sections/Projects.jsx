@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Typography from "../components/ui/Typography";
 import Card from "../components/Card";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, ListVideo, Tags } from "lucide-react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -13,38 +13,39 @@ import "swiper/css/pagination";
 const PROJETOS_DATA = [
   {
     id: 1,
-    title: "E-commerce Nature",
+    title: "E-commerce Materiais esportivos",
     description:
-      "Plataforma de vendas online que automatiza o recebimento de pagamentos.",
+      "E-commerce moderno de artigos esportivos com design mobile-first e totalmente responsivo. Desenvolvido em React e estilizado com Tailwind CSS, focado em performance e experiência de navegação fluida em qualquer dispositivo. ",
+    tags: [ "React", "Tailwind" ],
+    imageUrl: "../src/assets/ecommerce-materiais-esportivos.png",
+    githubUrl: "https://github.com/juliodeolino/Ecommerce-Materiais-Esportivos",
   },
   {
     id: 2,
-    title: "Finance Dashboard",
+    title: "Comparador de Preços com ia",
     description:
-      "Painel financeiro inteligente que centraliza receitas e despesas.",
+      "Sistema inteligente que analisa tabelas em PDF, extrai dados de produtos e utiliza IA (Google Gemini) para comparar preços automaticamente. Gera uma planilha organizada com o comparativo final, otimizando decisões de compra",
+    tags: [ "Python", "Gemini", "Pandas"],
+    imageUrl: "../src/assets/comparador-deprecos-ia.png",
+    githubUrl: "https://github.com/juliodeolino/comparador-tabelas-ia"
   },
   {
     id: 3,
-    title: "Sistema de Agendamento",
-    description: "Aplicação para automação de pedidos e agendamentos locais.",
+    title: "Blog",
+    description: "Plataforma de blog completa com back-end em Node.js e banco de dados MongoDB. Sistema robusto para criação, gerenciamento e exibição de posts, com estrutura escalável e pronta para receber autenticação e comentários.",
+    tags: [ "JavaScript", "Node.js", "Express", "MongoDB"],
+    imageUrl: "../src/assets/Blog.png",
+    githubUrl: "https://github.com/juliodeolino/Blog-NodeJs"
   },
   {
     id: 4,
-    title: "E-commerce Nature",
+    title: "Task Manager",
     description:
-      "Plataforma de vendas online que automatiza o recebimento de pagamentos.",
-  },
-  {
-    id: 5,
-    title: "Finance Dashboard",
-    description:
-      "Painel financeiro inteligente que centraliza receitas e despesas.",
-  },
-  {
-    id: 6,
-    title: "Sistema de Agendamento",
-    description: "Aplicação para automação de pedidos e agendamentos locais.",
-  },
+      "Aplicação em Java para gerenciamento de tarefas com operações CRUD: criar, excluir, editar e listar tarefas. Projeto focado em lógica de programação, manipulação de coleções e persistência de dados.",
+    tags: ["Java"],
+    imageUrl: "../src/assets/backend.jpg",
+    githubUrl: "https://github.com/juliodeolino/Task-manager"
+  }
 ];
 
 export default function Projects() {
@@ -124,6 +125,10 @@ export default function Projects() {
                   <Card
                     title={project.title}
                     description={project.description}
+                    tags={project.tags}
+                    imageUrl={project.imageUrl}
+                    githubUrl={project.githubUrl}
+                    liveUrl={project.liveUrl}
                   />
                 </motion.div>
               </SwiperSlide>

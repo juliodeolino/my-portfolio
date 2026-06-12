@@ -46,7 +46,7 @@ export default function Card({
           </span>
         ))}
       </div>
-      <div className="grid grid-cols-2 gap-3 pt-4 border-t border-gray-800 px-6">
+      <div className="flex flex-row gap-3 pt-4 border-t border-gray-800 px-6">
         {githubUrl && (
           <Button
             variant="secondary"
@@ -61,7 +61,7 @@ export default function Card({
           <Button
             variant="ghost"
             onClick={() => window.open(liveUrl, '_blank')}
-            className="py-2 text-xs font-bold! text-blue-500! hover:text-blue-400!"
+            className="py-2 text-xs font-bold! text-blue-700! hover:text-blue-500!"
             >
               <ExternalLink size={14} />
               Demo online

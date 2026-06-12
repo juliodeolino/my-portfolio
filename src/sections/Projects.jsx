@@ -17,7 +17,7 @@ const PROJETOS_DATA = [
     description:
       "E-commerce moderno de artigos esportivos com design mobile-first e totalmente responsivo. Desenvolvido em React e estilizado com Tailwind CSS, focado em performance e experiência de navegação fluida em qualquer dispositivo. ",
     tags: [ "React", "Tailwind" ],
-    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/ecommerce-materiais-esportivos.png?vercel-blob-valid-until=1781288105192&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzMxMjI1MDU0LCJpYXQiOjE3ODEyODgwMjUxNjh9.VJABE1F3RLT7WeS0PS7iNBUkXHLyRqck8nOXfUCeZNk&vercel-blob-signature=mDHaaBJuG4MVVA0hlNxqEwVKpG797m4k5PEye3gZuVM",
+    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/ecommerce-materiais-esportivos.png?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzM0MDI5MjU3LCJpYXQiOjE3ODEyOTA4MjkzMzN9.WQ0ead9Lng757U0fFvDjZYM1JA_FajIcFL0VEKxwH0U&vercel-blob-signature=-KJCFoTJhv-UJQUzU6DVz4jPJcEmo34LNGhJ5JkjpDs",
     githubUrl: "https://github.com/juliodeolino/Ecommerce-Materiais-Esportivos",
   },
   {
@@ -34,8 +34,8 @@ const PROJETOS_DATA = [
     title: "Blog",
     description: "Plataforma de blog completa com back-end em Node.js e banco de dados MongoDB. Sistema robusto para criação, gerenciamento e exibição de posts, com estrutura escalável e pronta para receber autenticação e comentários.",
     tags: [ "JavaScript", "Node.js", "Express", "MongoDB"],
-    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/Blog.png?vercel-blob-valid-until=1781288041959&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzMwOTQ2ODg0LCJpYXQiOjE3ODEyODc3NDY5OTV9.smyvb4Dag2Il_ZRk7LGe9ARe3eLCOyt1172uaerWtWU&vercel-blob-signature=pNNk5oZhDzU9gQIHnVhzN_6DGX9XJ5zpTD60RAZI-Eg",
-    githubUrl: "https://github.com/juliodeolino/Blog-NodeJs"
+    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/Blog.png?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzMzOTkwNjY2LCJpYXQiOjE3ODEyOTA3OTA3NDJ9.MJq3fOPUkJOWCZCL7PuDxoFRLhBvt_HlMgLJpg7HOP4&vercel-blob-signature=_niZrQe-yankndKEm_AM8XdrdPc5RIaKa8py4tUHQ2o",
+    githubUrl: "https://github.com/juliodeolino/Blog-NodeJs" 
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const PROJETOS_DATA = [
     description:
       "Aplicação em Java para gerenciamento de tarefas com operações CRUD: criar, excluir, editar e listar tarefas. Projeto focado em lógica de programação, manipulação de coleções e persistência de dados.",
     tags: ["Java"],
-    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/projetos%20sem%20front.jpg?vercel-blob-valid-until=1781288088719&vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzMxMjI1MDU0LCJpYXQiOjE3ODEyODgwMjUxNjh9.VJABE1F3RLT7WeS0PS7iNBUkXHLyRqck8nOXfUCeZNk&vercel-blob-signature=p1aE8DjBTydPuZYnEQ3zpLwYfTQv-FV_QDwYlFinFJI",
+    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/projetos%20sem%20front.jpg?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzM0MDY0MzM3LCJpYXQiOjE3ODEyOTA4NjQ0MjR9._3yWbMjR5W4Fmx1N1Jx1GXFHmvoWzUhcHFHqVGieEGg&vercel-blob-signature=qXbxFLNXIDN3XsgPsoDJi_vZFqBp5DuxnqmQp-pNXKQ",
     githubUrl: "https://github.com/juliodeolino/Task-manager"
   }
 ];

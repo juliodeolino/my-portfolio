@@ -63,10 +63,10 @@ export default function Hero() {
             {/* Métrica 2 (Ex: Seus projetos entregues) */}
             <div className="flex flex-col items-center text-center p-4 border-r border-gray-800 last:border-0">
               <span className="text-4xl md:text-5xl font-extrabold text-white">
-                20+
+                10+
               </span>
               <p className="text-gray-400 text-[12px] md:text-sm font-medium mt-1">
-                Projetos Entregues
+                Projetos
               </p>
             </div>
 

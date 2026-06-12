@@ -45,7 +45,7 @@ export default function Hero() {
             <Button variant="primary"  href= "#projetos" className="w-full md:w-48" pointer="cursor-pointer" >  
               Ver Projetos
             </Button>
-            <Button variant="secondary" className="w-full md:w-48">
+            <Button variant="secondary" className="w-full md:w-48" target="_blank" download="MeuCurriculo.pdf" href="https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/MeuCurriculo.pdf?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzM0MzI4MjE2LCJpYXQiOjE3ODEyOTExMjgyOTF9.ijbM8LpwqrG3xUxI3rAk9jx1vGmeujE9WtEW4AJ5u14&vercel-blob-signature=XKAVB0PIRUccKb98d3VNsTpRDc85GUdy6Sf09JhAIUg">
               Download CV
             </Button>
           </motion.div>

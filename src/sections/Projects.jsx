@@ -17,7 +17,7 @@ const PROJETOS_DATA = [
     description:
       "E-commerce moderno de artigos esportivos com design mobile-first e totalmente responsivo. Desenvolvido em React e estilizado com Tailwind CSS, focado em performance e experiência de navegação fluida em qualquer dispositivo. ",
     tags: [ "React", "Tailwind" ],
-    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/ecommerce-materiais-esportivos.png?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzM0MDI5MjU3LCJpYXQiOjE3ODEyOTA4MjkzMzN9.WQ0ead9Lng757U0fFvDjZYM1JA_FajIcFL0VEKxwH0U&vercel-blob-signature=-KJCFoTJhv-UJQUzU6DVz4jPJcEmo34LNGhJ5JkjpDs",
+    imageUrl: "https://zshfpdxipm860m9p.public.blob.vercel-storage.com/ecommerce-materiais-esportivos.png",
     githubUrl: "https://github.com/juliodeolino/Ecommerce-Materiais-Esportivos",
   },
   {
@@ -26,7 +26,7 @@ const PROJETOS_DATA = [
     description:
       "Sistema inteligente que analisa tabelas em PDF, extrai dados de produtos e utiliza IA (Google Gemini) para comparar preços automaticamente. Gera uma planilha organizada com o comparativo final, otimizando decisões de compra",
     tags: [ "Python", "Gemini", "Pandas"],
-    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/comparador-deprecos-ia.png?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzMxMjExMTE5LCJpYXQiOjE3ODEyODgwMTEyMzF9.hcyZY4Cz6B-UHyEb-Lo236O26oPcULSmvVNSJXDOe3U&vercel-blob-signature=jqTWJOoF70U7_8CiLOzjLSKPXxKH1nVjMF0TDizhwUM",
+    imageUrl: "https://zshfpdxipm860m9p.public.blob.vercel-storage.com/comparador-deprecos-ia.png",
     githubUrl: "https://github.com/juliodeolino/comparador-tabelas-ia"
   },
   {
@@ -34,7 +34,7 @@ const PROJETOS_DATA = [
     title: "Blog",
     description: "Plataforma de blog completa com back-end em Node.js e banco de dados MongoDB. Sistema robusto para criação, gerenciamento e exibição de posts, com estrutura escalável e pronta para receber autenticação e comentários.",
     tags: [ "JavaScript", "Node.js", "Express", "MongoDB"],
-    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/Blog.png?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzMzOTkwNjY2LCJpYXQiOjE3ODEyOTA3OTA3NDJ9.MJq3fOPUkJOWCZCL7PuDxoFRLhBvt_HlMgLJpg7HOP4&vercel-blob-signature=_niZrQe-yankndKEm_AM8XdrdPc5RIaKa8py4tUHQ2o",
+    imageUrl: "https://zshfpdxipm860m9p.public.blob.vercel-storage.com/Blog.png",
     githubUrl: "https://github.com/juliodeolino/Blog-NodeJs" 
   },
   {
@@ -43,7 +43,7 @@ const PROJETOS_DATA = [
     description:
       "Aplicação em Java para gerenciamento de tarefas com operações CRUD: criar, excluir, editar e listar tarefas. Projeto focado em lógica de programação, manipulação de coleções e persistência de dados.",
     tags: ["Java"],
-    imageUrl: "https://qs2ptfvjv0j5xteh.private.blob.vercel-storage.com/projetos%20sem%20front.jpg?vercel-blob-delegation=eyJzdG9yZUlkIjoic3RvcmVfUVMyUHRGVmp2MEo1WHRlaCIsIm93bmVySWQiOiJ0ZWFtX1Q4UEx1RkJkaU9TRHhGV0ZaUnBuQ2liRiIsInBhdGhuYW1lIjoiKiIsIm9wZXJhdGlvbnMiOlsiZ2V0IiwiaGVhZCJdLCJ2YWxpZFVudGlsIjoxNzgxMzM0MDY0MzM3LCJpYXQiOjE3ODEyOTA4NjQ0MjR9._3yWbMjR5W4Fmx1N1Jx1GXFHmvoWzUhcHFHqVGieEGg&vercel-blob-signature=qXbxFLNXIDN3XsgPsoDJi_vZFqBp5DuxnqmQp-pNXKQ",
+    imageUrl: "https://zshfpdxipm860m9p.public.blob.vercel-storage.com/projetos%20sem%20front.jpg",
     githubUrl: "https://github.com/juliodeolino/Task-manager"
   }
 ];
